@@ -1,0 +1,7 @@
+.background {
+  width: 100%;
+  height: 85vh;
+  /* background-color: #292929; */
+  background-image: url("../bg_zoom.jpeg");
+  background-repeat: no-repeat;
+}

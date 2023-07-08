@@ -1,0 +1,24 @@
+.display_flex {
+  width: 100%;
+  height: 500px;
+  background-color: #ababab;
+  display: flex;
+  justify-content: center;
+}
+.display_item {
+  padding: 20px;
+  height: 40px;
+  width: 40px;
+  /* justify-content: center; */
+  background-color: yellow;
+}
+
+.display_grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 8px;
+}
+.grid_item {
+  background-color: green;
+  list-style: none;
+}

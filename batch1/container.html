@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="HTML">
+    <meta name="author" content="Endang Rukmana">
+    <title>Container HTML</title>
+    <style></style>
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- container -->
+        <!-- <u><b><i>halo</i></b></u> -->
+        <h1>Container</h1>
+        <div class="hello">Hello
+            <div class="world">world</div>
+            <div>hai</div>
+        </div>
+        <div>kasdjhfjlksf</div>
+
+        <section class="hello">
+            <div class="world">helo</div>
+        </section>
+        <!-- <iframe src="./text.html" width="500px" height="500px" frameborder="2"></iframe> -->
+        <!-- list -->
+        <h1>List</h1>
+        <ul>
+            <li><a href="#">google</a></li>
+            <li>item3</li>
+            <li>item4</li>
+            <!-- <li class="items-flex">item 1</li>
+            <li class="items-flex">item 2</li> -->
+            <!-- <li class="items">item 3</li>
+            <li class="items">item 4</li>
+            <li class="items">item 5</li>
+            <li class="items">item 6</li>
+            <li class="items">item 7</li> -->
+        </ul>
+        <ol>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+        </ol>
+        <!-- table -->
+        <h1>Table</h1>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>col 1</th>
+                    <th>col 2</th>
+                    <th>col 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>value col 1</td>
+                    <td>value col 2</td>
+                    <td>value col 3</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- form -->
+        <h1>Form</h1>
+        <form>
+            <p>input text</p>
+            <label for="val">Input your value</label>
+            <input type="text" placeholder="input text" name="val">
+            <p>checkbox</p>
+            <label for="">
+                <input type="checkbox" checked value="1"> 1
+            </label>
+            <label for="">
+                <input type="checkbox" value="2"> 2
+            </label>
+            <label for="">
+                <input type="checkbox" value="3"> 3
+            </label>
+            <p>select</p>
+            <div>
+                <select name="sel" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+        </form>
+        <!-- hyperlink -->
+        <h1>Hyperlink</h1>
+        <div>
+            <a href="https://www.google.com">google</a>
+            <a href="https://www.google.com" target="_blank">google</a>
+        </div>
+        <!-- button -->
+        <h1>Button</h1>
+        <div>
+            <button onclick="onClick('halo')" class="button_primary">click</button>
+        </div>
+        <!-- image -->
+        <h1>Image</h1>
+        <img src="../bg_zoom.jpeg" alt="zoom" width="200px" height="200px">
+    </div>
+</body>
+<script>
+    function onClick(text) {
+        alert(text)
+    }
+</script>
+
+</html>

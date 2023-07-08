@@ -1,0 +1,20 @@
+.heading {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+  background-color: #ababab;
+  margin: 50px;
+}
+
+.colors {
+  color: yellow;
+}
+
+.container_text {
+  width: 50vw;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: green;
+}
